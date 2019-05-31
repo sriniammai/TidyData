@@ -30,3 +30,4 @@ final_tbl <- cbind(total_subject,total_y, total_x)
 final_tidy_tbl <- final_tbl %>% group_by(subject,activity ) %>% summarise_each(funs = mean)
 # the tidy data
 View(final_tidy_tbl)
+write.table(final_tidy_tbl, "TidyData.txt", sep = ",")
