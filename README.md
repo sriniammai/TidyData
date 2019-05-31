@@ -16,3 +16,14 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 _**[run_analysis.R](https://github.com/sriniammai/TidyData/blob/master/run_analysis.R)** has step by step commands to produce the **[TidyData.txt](https://github.com/sriniammai/TidyData/blob/master/TidyData.txt)** file contains the expected data set_
+
+1. Load the activity label and features files.
+1. Load the all the files belongs to both test and train.
+1. union the test and train using rbind command.
+1. assign respective label to activity , subject and the variable names.
+1. filter only mean() and std() variables.
+1. replace the activity number with respective activity label using left_join command.
+1. column bind the activity , subject and variables tables into one single table.
+1. calculate the mean of the each group by subject and activity using group_by and summarise_each
+1. view the file on  RStudio
+1. and also write the results in TidyData.txt file
