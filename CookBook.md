@@ -3,7 +3,7 @@
 TidyData.txt contains total of 180 observations (for each subject and activity group) of 68 variables.
 
 ## Subject 
-The subjects were labelled sequentially from one to thirty.
+The subjects are labelled sequentially from one to thirty.
 
 ## Activities
 Following are the 6 different activits
