@@ -1,7 +1,6 @@
 library(dplyr)
 # set the working directory to the unarchived package home 'UCI HAR Dataset'
-#setwd('UCI HAR Dataset')
-setwd('C:\\Srini\\R-Do\\Cleaning\\week4\\UCI HAR Dataset\\')
+setwd('UCI HAR Dataset')
 # load all the required files
 # label files
 activity_lb <- read.table("./activity_labels.txt")
