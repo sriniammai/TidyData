@@ -1,10 +1,12 @@
-# Tidy Data Description
+# Tidy Data File Description
 
-This file explains the variables contained in TidyData.txt
+TidyData.txt contains total of 180 observations (for each subject and activity group) of 68 variables.
 
-## Subject and Activity Group
+## Subject 
+The subjects were labelled sequentially from one to thirty.
 
-The data was split into six activities:
+## Activities
+Following are the 6 different activits
 1. WALKING
 1. WALKING_UPSTAIRS
 1. WALKING_DOWNSTAIRS
@@ -12,9 +14,8 @@ The data was split into six activities:
 1. STANDING
 1. LAYING
 
-The subjects were labelled sequentially from one to thirty.
 
-## Summary data contains 68 variables:
+## Tidy Data contains 68 variables:
 
 * "activity"
 * "subject"
