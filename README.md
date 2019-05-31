@@ -15,4 +15,4 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-_data_analysis.R has step by step approach to produce the tidydata.txt file contains the expected data set_
+_data_analysis.R has step by step approach to produce the TidyData.txt file contains the expected data set_
