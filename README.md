@@ -15,7 +15,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-_**[run_analysis.R](https://github.com/sriniammai/TidyData/blob/master/run_analysis.R)** has step by step commands to produce the **[TidyData.txt](https://github.com/sriniammai/TidyData/blob/master/TidyData.txt)** file contains the expected data set_
+_**[run_analysis.R](https://github.com/sriniammai/TidyData/blob/master/run_analysis.R)** has following step by step logic to produce the **[TidyData.txt](https://github.com/sriniammai/TidyData/blob/master/TidyData.txt)** file contains the expected data set_
 
 1. Load the activity label and features files.
 1. Load the all the files belongs to both test and train.
